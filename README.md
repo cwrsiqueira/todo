@@ -1,3 +1,16 @@
+### Processo de criação:
+
+npx create-react-app todo --template typescript
+npm install styled-components
+npm install -D @types/styled-components
+
+### Incluir no arquivo tsconfig.json para parar de dar erro typescript
+
+"noImplicitAny": false
+
+
+
+### -----------------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
